@@ -1,0 +1,120 @@
+.header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    background-color: white;
+}
+.home__btn {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.85);
+    border: none;
+    background-color: #fff;
+    width: 140px;
+    cursor: pointer;
+    margin: 15px 15px;
+    padding: 15px 20px;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+    .home__btn:hover {
+      
+      color: #52c41a;
+      transition: 0.7s;
+    }
+  
+
+  .sign-in__btn,
+  .sign-up__btn {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.85);
+    border: none;
+    background-color: #fff;
+    width: 120px;
+    cursor: pointer;
+    margin: 15px 15px;
+    padding: 15px 20px;
+    transition: 0.7s;
+    border-radius: 5px;
+  }
+  .sign-in__btn,
+  .sign-up__btn:hover {
+      border: 0.5px solid #52c41a;
+      border-radius: 5px;
+      color: #52c41a;
+      transition: 0.7s;
+    }
+  
+
+  .is-login {
+    display: flex;
+    align-items: center;
+  }
+    .create {
+      color: #52c41a;
+      border: 1px solid #52c41a;
+      border-radius: 5px;
+      text-decoration: none;
+      padding: 10px 15px;
+      font-size: 14px;
+      transition: 1s;
+      margin-right: 25px;
+      
+    }
+    .create:hover {
+      color: #f1b211;
+      border-color: #f1b211;
+      transition: 1s;
+      scale: 1.1;
+    }
+
+    .profile {
+      font-size: 18px;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.85);
+      border: none;
+      width: 120px;
+      cursor: pointer;
+      padding: 15px 20px;
+      transition: 0.7s;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+      .avatar {
+        margin: 0 13px;
+        border-radius: 50%;
+        max-width: 46px;
+        max-height: 46px;
+      }
+
+      .avatar:hover {
+        color: tomato;
+      }
+    
+
+    .log-out {
+      font-size: 18px;
+      border: 1px solid rgba(0, 0, 0, 0.75);
+      border-radius: 5px;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.85);
+      background-color: #fff;
+      width: 120px;
+      cursor: pointer;
+      margin: 15px 22px 15px 5px;
+      text-align: center;
+      padding: 8px 5px 8px 5px;
+      transition: 0.7s;
+    }
+    .log-out:hover {
+      border: 1px solid #52c41a;
+      border-radius: 5px;
+      color: #52c41a;
+      transition: 0.7s;
+    }
+  
